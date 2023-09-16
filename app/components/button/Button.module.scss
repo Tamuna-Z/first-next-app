@@ -1,0 +1,19 @@
+@import '../../colors.scss';
+
+.container{
+    background-color:$lightInfoColor;
+    color:$primaryColor;
+    border-radius: 8px;
+    padding: 14px 29px;
+    width: 150px;
+    cursor:pointer;
+
+}
+.container:hover{
+    background-color: $primaryHoverColor;
+    color:#FFF;
+}
+.container:active{
+    background-color:$primaryColor;
+    color:#FFF;
+}
