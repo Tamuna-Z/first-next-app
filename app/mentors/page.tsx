@@ -1,5 +1,5 @@
 export default ()=>{
     return(
-        <h1>list of mentors</h1>
+        <div><h1>list of mentors</h1></div>
     )
 }
