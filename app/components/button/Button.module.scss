@@ -1,19 +1,37 @@
 @import '../../colors.scss';
 
 .container{
-    background-color:$lightInfoColor;
-    color:$primaryColor;
+   
     border-radius: 8px;
     padding: 14px 29px;
     width: 150px;
     cursor:pointer;
+    border: none;
+}
+.fill{
+    background-color:$lightInfoColor;
+    color:$primaryColor;
 
 }
-.container:hover{
+
+.outline{
+
+}
+.fill:hover:enabled{
     background-color: $primaryHoverColor;
     color:#FFF;
 }
-.container:active{
+.fill:active:enabled{
     background-color:$primaryColor;
     color:#FFF;
+}
+.fill:disabled{
+    background-color:$backgroundPrimary;
+    color:$secondaryTextColor;
+    cursor: not-allowed;
+}
+.outline{
+    background: $white;
+    color:$primaryColor;
+    border: 1px solid $primaryColor;
 }
