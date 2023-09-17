@@ -9,6 +9,7 @@ export default()=>{
     }
     const onAdd=()=>{
         setTasks([...tasks,task])
+        setTask('')
     }
     return(
         <div>
